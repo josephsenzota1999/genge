@@ -7,7 +7,6 @@ const categorySchema = new mongoose.Schema({
 		required:true
 	},
 	description: String,
-	required: true;
 })
 
-export default categorySchema;
+module.exports = categorySchema;

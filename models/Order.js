@@ -6,7 +6,7 @@ const orderSchema = new mongoose.Schema({
 	quantity: String,
 	subtotal: String,
 
-	order: { type: mongoose.Schema.Types.ObjectId, ref: 'Order'}
+	customer: { type: mongoose.Schema.Types.ObjectId, ref: 'Customer'}
     product: { type: mongoose.Schema.Types.ObjectId, ref: 'Product'}
 
 }
